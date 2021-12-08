@@ -1,0 +1,14 @@
+*{
+    margin:0;
+}
+#login{
+    text-align: right;
+    padding-right: 50px;
+    
+}
+header{
+
+    background-color: rgb(3, 3, 146);
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.37) 0px 2px 7px;
+}
