@@ -1,10 +1,14 @@
 *{
     margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
 
-    background-color: rgb(3, 3, 146);
+    background-color: #0532A8;
     padding: 25px;
     box-shadow: rgba(0, 0, 0, 0.37) 0px 2px 7px;
 }
@@ -23,25 +27,68 @@ header{
     line-height: 20px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
 }
-input[type="button"]{
+#login input[type="button"]{
+    border:none;
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 5px;
     line-height: 20px;
+    padding: 2px 10px;
+    
+
     
 }
 input[type="button"]:hover{
     background-color:rgb(169, 169, 169);
     box-shadow: inset rgba(0, 0, 0, 0.308) 0px 3px 10px;
 }
-#box{
-    background-color: rgb(0, 57, 104);
+
+#cadastro{
+    color: white;
+    background-color: #5C3EA8;
     border-radius: 8px;
-    width: 500px;
-    height: 600px;    
+    width: 400px;
+    height: 450px;    
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 88px;
     
+    
+}
+#cadastro h1{
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    background-color: #0532A8;
+    color: white;
+    margin: -30px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#cadastro input{
+    border:none;
+    margin-top: 20px;
+    border-radius: 5px;    
+    line-height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
+    
+}
+#cadastro input[type="button"]{
+        
+    background-color: #7a06d3;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border:none;
+    margin-top: 50px;
+    
+}
+#cadastro input[type="button"]:hover{
+    background-color:#5C059E;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
