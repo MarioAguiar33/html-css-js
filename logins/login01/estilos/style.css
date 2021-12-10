@@ -53,6 +53,7 @@ input[type="button"]:hover{
     margin: auto;
     margin-top: 50px;
     margin-bottom: 88px;
+    box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 10px 1px;
     
     
 }
@@ -64,13 +65,17 @@ input[type="button"]:hover{
     margin: -30px;
     padding: 30px;
     margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
 }
 
 #cadastro input{
     border:none;
+    margin: auto;
     margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 8px;
     border-radius: 5px;    
-    line-height: 20px;
+    line-height: 30px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
     
 }
@@ -81,7 +86,8 @@ input[type="button"]:hover{
     line-height: 20px;
     padding: 10px 20px;
     border:none;
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 20px;
     
 }
 #cadastro input[type="button"]:hover{
