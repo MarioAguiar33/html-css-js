@@ -14,6 +14,7 @@ header{
 }
 main{
     background-image: linear-gradient(to right,#808080,#CCCCCC);
+    background-image: url('fundo.jpg');
     padding: 1px;
 }
 #login{
