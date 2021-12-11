@@ -13,12 +13,11 @@ header{
     box-shadow: rgba(0, 0, 0, 0.37) 0px 2px 7px;
 }
 main{
-    background-image: linear-gradient(to right,#808080,#CCCCCC);    
-    background-image: url("../fundo.jpg");
-    background-repeat: no-repeat;
+
+    background: #CCCCCC url('../fundo.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center center;
     padding: 1px;
+
 }
 #login{
     text-align: right;
@@ -55,7 +54,7 @@ input[type="button"]:hover{
     color: black;
     background-color: #cccccc;
     border-radius: 8px;
-    width: 400px;
+    max-width: 400px;
     height: 450px;    
     padding: 30px;
     margin: auto;
