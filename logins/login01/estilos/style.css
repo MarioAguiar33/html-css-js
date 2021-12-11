@@ -13,8 +13,11 @@ header{
     box-shadow: rgba(0, 0, 0, 0.37) 0px 2px 7px;
 }
 main{
-    background-image: linear-gradient(to right,#808080,#CCCCCC);
-    background-image: url('fundo.jpg');
+    background-image: linear-gradient(to right,#808080,#CCCCCC);    
+    background-image: url("../fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     padding: 1px;
 }
 #login{
