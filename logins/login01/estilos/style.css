@@ -4,6 +4,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    size: 97%vh;
 }
 
 header{
@@ -13,7 +14,8 @@ header{
     box-shadow: rgba(0, 0, 0, 0.37) 0px 2px 7px;
 }
 main{
-
+    size: 97%vh;
+    position: relative;
     background: #CCCCCC url('../fundo.jpg') no-repeat center center fixed;
     background-size: cover;
     padding: 1px;
@@ -54,6 +56,10 @@ input[type="button"]:hover{
 }
 
 #cadastro{
+    position: absolute;
+    left: 50%;
+    top: 50%;    
+    transform: translate(-50%,-50%);
     color: black;
     background-color: #cccccc;
     border-radius: 8px;
