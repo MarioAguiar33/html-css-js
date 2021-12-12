@@ -63,11 +63,10 @@ input[type="button"]:hover{
     color: black;
     background-color: #cccccc;
     border-radius: 8px;
-    max-width: 400px;
+    width: 300px;
     height: 450px;    
     padding: 30px;
     margin: auto;
-    
     box-shadow: rgba(0, 0, 0, 0.377) 5px 5px 10px 1px;
     
     
@@ -82,26 +81,35 @@ input[type="button"]:hover{
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
 }
+#cadastro p{
+    text-align: center;
+    margin-top: 10px;
+    
+   
+}
 
 #cadastro input{
     text-align: center;
+    width: 220px;    
+    display: block;
     border:none;
     margin: auto;
-    margin-top: 20px;
-    margin-right: 5px;
-    margin-bottom: 8px;
+    margin-top: 15px;
     border-radius: 5px;    
     line-height: 30px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 7px;
     
 }
 #cadastro input[type="button"]{
-        
+    display: block;        
     background-color: #7a06d3;
     border-radius: 5px;
     line-height: 20px;
-    padding: 10px 20px;
+    padding: 6px;
     border:none;
+    margin: auto;
+    margin-top: 30px;
+    width: 100px;
     
 }
 #cadastro input[type="button"]:hover{
