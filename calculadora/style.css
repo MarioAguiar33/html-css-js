@@ -5,6 +5,7 @@
     height: 500px;
     position: relative;
     border-radius: 10px;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
 }
 #visor{
     position: absolute;
@@ -22,10 +23,11 @@
 #numeros{
     position: absolute;
     top:175px;
-    background-color: gray;
+    background-color: dimgray;
     width: 250px;
     height: 325px;
     border-radius: 0px 0px 0px 10px;
+    border-top: solid 1px;
     
     
 }
@@ -45,6 +47,7 @@
     background-color: rgb(26, 107, 189);
 }
 #outros{
+    border-top: solid 1px;
     background-color: rgb(143, 142, 142);
     position:absolute;
     top:175px;
