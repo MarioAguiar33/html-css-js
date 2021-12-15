@@ -1,8 +1,12 @@
 
-
+body{
+    background-image: linear-gradient(to right,rgb(30, 84, 184),rgb(0, 81, 255));
+    height: 100vh;
+}
     
 #calculadora{
     margin: auto;
+    
     background-color: dimgray;
     width: 400px;
     height: 500px;
