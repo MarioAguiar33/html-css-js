@@ -1,8 +1,5 @@
 
-@font-face {
-    font-family: font-numero;
-    src: url(!CRASS\ ROOTS\ OFL.ttf);
-}
+
     
 #calculadora{
     margin: auto;
@@ -23,7 +20,7 @@
     color: white;
     font-size: 60px;
     text-align: right;
-    font-family: font-numero;
+    font-family: 'cursive';
     
 }
 
