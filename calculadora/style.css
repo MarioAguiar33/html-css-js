@@ -22,6 +22,7 @@
     font-weight: bolder;
     text-align: right;
     font-family: 'cursive';
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
     
 }
 
@@ -47,9 +48,11 @@
     font-weight: bolder;    
     background-color: dodgerblue;
     border:none;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
 }
 .num:hover{
     background-color: rgb(26, 107, 189);
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
 }
 #outros{
     border-top: solid 1px;
@@ -67,9 +70,7 @@
     border-radius: 50%;
     margin-top: 20px;
     margin-left: 10px;
-   
-    
-
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
     font-size: 17px;
     font-weight: bolder;    
     background-color: rgb(101, 132, 163);
@@ -84,8 +85,10 @@
     font-weight: bolder;    
     background-color: rgb(101, 132, 163);
     border:none;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
 
 }
 .out:hover,.out2:hover{
     background-color: rgb(109, 156, 204);
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.459);
 }
