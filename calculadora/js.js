@@ -1,3 +1,7 @@
+function resetar(){
+    document.getElementById("visor").innerHTML=""
+}
 function inserir(num){
-    document.getElementById("visor").innerHTML=num;
+   var numero= document.getElementById("visor").innerHTML;
+   document.getElementById("visor").innerHTML=numero+num;
 }
