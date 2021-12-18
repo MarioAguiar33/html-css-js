@@ -54,7 +54,7 @@ main > h2{
     font-family: var(--titulo);
     background-image: linear-gradient(to right,black 70%,transparent);
     color: white;
-   padding: 3px;
+   padding: 5px;
 }
 main > h3{
     margin-top: 20px;
