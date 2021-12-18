@@ -52,7 +52,7 @@ main > h2{
     margin-bottom: 20px;
     font-variant:small-caps;
     font-family: var(--titulo);
-    background-image: linear-gradient(to right,black 60%,transparent);
+    background-image: linear-gradient(to right,black 70%,transparent);
     color: white;
    padding: 3px;
 }
