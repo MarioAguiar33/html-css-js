@@ -105,3 +105,15 @@ article> ul{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+@media (max-width:800px){
+    div img{
+        width: 350px;
+    }
+
+}
+@media (max-width:600px){
+    div img{
+        width: 250px;
+    }
+
+}
