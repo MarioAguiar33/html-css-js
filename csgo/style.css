@@ -121,6 +121,9 @@ article> ul{
     div img{
         width: 250px;
     }
+    header>a{
+        font-size: 20px;
+    }
     
 
 }
