@@ -109,11 +109,18 @@ article> ul{
     div img{
         width: 350px;
     }
+    header>a{
+        display: none;
+    }
+    nav>#pesquisa{
+        display: none;
+    }
 
 }
 @media (max-width:600px){
     div img{
         width: 250px;
     }
+    
 
 }
