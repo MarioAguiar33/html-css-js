@@ -58,6 +58,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
 main{
     margin: auto;
     max-width: 800px;
@@ -91,7 +92,7 @@ article>h3{
     text-align: center;
     margin: 15px;
 }
-div img{
+.cont img{
     width: 400px;
     border-radius: 15px;
 }
