@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -69,12 +70,20 @@ main{
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.404);
     color: white;
     padding: 30px;
+    display: grid;
+  grid-template-columns: 1fr 325px;
+  grid-gap: 10px;
+  grid-template-areas:
+  "titulo titulo"
+   "noticia players"
+   "noticia update"
+   "noticia .";
    
    
     
     
 }
-main >h2{
+main>section>h2{
     margin: -30px -30px 0 -30px;
     background-color: #151516af;
     color: #F3A11D;
@@ -85,14 +94,7 @@ main >h2{
     border-bottom: 0.5px solid black;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.404);
 }
-section{
-  display: grid;
-  grid-template-columns: 1fr 325px;
-  grid-gap: 10px;
-  
- 
-    
-}
+
 
 article{
     border-bottom: 1px solid #2B3B43;
@@ -128,28 +130,36 @@ article> ul{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#updates{
-    border-left: 1.5px solid #2b3b45;
+#noticia{
+    grid-area: noticia;
 }
+#update{
+    grid-area: update;
+    text-align: center;
+    
+}
+#update a img{
+    border-radius: 10px;
+}
+#titulo{
+    grid-area: titulo;
+}
+
 #players{
-    margin-left: 50px;
-    margin-top: 15px; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.801);   
+    background-image: url("imagens/fundo-players.jpg");
+    background-position: center center;
+    background-size: cover;
+    grid-area: players;
+    margin: auto;
     border: 2px solid #2B3B43;
     padding: 5px;
     border-radius: 15px;
     width: 250px;
-   
-    
-    
+    height: 50px;
+    text-align: center;
 }
-#updateteia{
-     
-    margin-left: 30px;
-   
-    
-   
-   
-}
+
 .update img{
     width: 300px;
     border-radius: 10px;
@@ -162,21 +172,29 @@ article> ul{
     header>a{
         display: none;
     }
-    nav>#pesquisa{
-        display: none;
+    #update a{
+        display: block;
     }
+    main{
+        grid-template-columns: 1fr;
+       grid-template-areas:
+        "titulo"
+        "players"
+        "update"
+        "noticia";
+    }
+    
 
 }
 @media (max-width:600px){
+    nav>#pesquisa{
+        display: none;
+    }
     div img{
         width: 250px;
     }
-    header>a{
-        font-size: 20px;
-    }
-    section{
-        grid-template-columns: 1fr;
-    }
+    
+    
     
 
 }
