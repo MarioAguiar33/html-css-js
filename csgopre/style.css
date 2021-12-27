@@ -10,24 +10,20 @@ header{
     align-items: center;
     background-color: #18202B;
     padding: 16px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.404);
-    
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.404);    
 }
 header>nav{
     display: inline-block;    
 }
-header>a{
-    
+header>a{    
     display: inline-block;
     color: white;
     font-size: 30px;
     width: 100px; 
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 header>a:hover{      
-    color: #F3A11D;
-    
+    color: #F3A11D;    
 }
 nav>#pesquisa{
     background-color:#2B3B43;
@@ -39,14 +35,10 @@ nav>#pesquisa{
 nav>a{
     color: #F3A11D;
     text-transform: uppercase;
-    text-decoration: none;
-   
-    padding: 5px 10px;
-   
-    
+    text-decoration: none;   
+    padding: 5px 10px;    
 }
-nav>a:hover{
-   
+nav>a:hover{   
     text-decoration: underline;
     background-color: #2B3B43;
     border-radius: 15px;
@@ -57,8 +49,7 @@ body{
     background-image: url("imagens/fundo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
 }
 
 main{
@@ -71,17 +62,13 @@ main{
     color: white;
     padding: 30px;
     display: grid;
-  grid-template-columns: 1fr 325px;
-  grid-gap: 10px;
-  grid-template-areas:
-  "titulo titulo"
-   "noticia players"
-   "noticia update"
-   "noticia .";
-   
-   
-    
-    
+    grid-template-columns: 1fr 325px;
+    grid-gap: 10px;
+    grid-template-areas:
+    "titulo titulo"
+    "noticia players"
+    "noticia update"
+    "noticia .";    
 }
 main>section>h2{
     margin: -30px -30px 0 -30px;
@@ -94,7 +81,6 @@ main>section>h2{
     border-bottom: 0.5px solid black;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.404);
 }
-
 
 article{
     border-bottom: 1px solid #2B3B43;
@@ -123,8 +109,13 @@ article div{
     
 }
 article>p{
+    
     margin-top: 5px;
     margin-bottom: 5px;
+}
+article p,li {
+    font-weight: lighter;
+    font-size: 14.4px;
 }
 article> ul{
     margin-top: 15px;
@@ -136,7 +127,6 @@ article> ul{
 #update{
     grid-area: update;
     text-align: center;
-    
 }
 #update a img{
     border-radius: 10px;
@@ -160,13 +150,8 @@ article> ul{
     text-align: center;
 }
 
-.update img{
-    width: 300px;
-    border-radius: 10px;
-}
-
 @media (max-width:800px){
-    div img{
+    #cont img{
         width: 350px;
     }
     header>a{
@@ -190,7 +175,8 @@ article> ul{
     nav>#pesquisa{
         display: none;
     }
-    div img{
+    
+    #cont img{
         width: 250px;
     }
     
