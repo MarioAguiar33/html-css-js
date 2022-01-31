@@ -3,6 +3,17 @@
     margin: 0;
     padding: 0;
 }
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background: #18202B;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: #F3A11D;
+    border-radius: 15px;
+}
 
 header{
     display: flex;
