@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: url('/imagens/fundo2.jpg');
+    background-image: url('fundo2.jpg');
     background-size: cover;
     background-attachment: fixed;
     font-family: var(--fontP)
