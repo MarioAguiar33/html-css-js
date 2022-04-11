@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor1:#399EF5;
+    --cor2:#d1cbcb;
+}
+header{
+    display: flex;
+    justify-content: end;
+    
+    padding: 10px;
+}
+body{
+    font-family: sans-serif;
+    transition: 1s;
+}
+
+main{
+    max-width: 600px;    
+    margin: 0 auto;    
+}
+#foto{
+    display: flex;
+    padding: 3px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid var(--cor1);
+    border-radius: 50%;
+}
+#foto img{
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 50%;
+}
+#names,#redes,#btn,#habilidades{
+    width: 300px;
+    text-align: center;
+    margin: 10px auto;
+}
+#redes>img{
+    margin: 7px 2px;
+    width: 20px;
+
+}
+#btn input{
+    color: white;
+    padding:10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor1);
+    margin-top: 10px;
+}
+#habilidades{
+    border-radius: 5px;
+    background-color: var(--cor2);
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+#habilidades span{
+    display: grid;
+    place-content: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: calc(280px/2);
+}
+#habilidades span:nth-child(2n){
+    background-color: var(--cor2);
+
+}
+#projetos{
+    max-width: 600px;
+    display: grid;
+    justify-content: space-evenly;
+    justify-items:center;
+    gap:15px;
+    grid-template-columns:repeat(2,minmax(150px,250px)) ;
+    margin-top: 50px;
+    
+}
+#projetos div{
+    color: white;
+    display: grid;
+    place-content: center;
+    width: 225px;
+    border-radius: 5px;
+    height: 150px;
+    background-image: url(capa3.jpg);   
+    background-position: center; 
+    background-size: cover;
+}
+
+@media(max-width:400px){
+    #projetos div{
+        width: 175px;
+    }
+}
