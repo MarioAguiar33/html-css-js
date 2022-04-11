@@ -97,7 +97,7 @@ main{
     background-size: cover;
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     #projetos div{
         width: 175px;
     }
