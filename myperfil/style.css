@@ -7,6 +7,10 @@
     --cor1:#399EF5;
     --cor2:#d1cbcb;
 }
+.darkMode{
+    background-color: black;
+    color: white;
+}
 header{
     display: flex;
     justify-content: end;
@@ -56,6 +60,7 @@ main{
 }
 #habilidades{
     border-radius: 5px;
+    
     background-color: var(--cor2);
     height: 55px;
     display: flex;
@@ -64,6 +69,7 @@ main{
     margin-top: 50px;
 }
 #habilidades span{
+    color:black !important;
     display: grid;
     place-content: center;
     background-color: white;
