@@ -45,7 +45,7 @@ main{
     text-align: center;
     margin: 10px auto;
 }
-#redes>img{
+#redes>a>img{
     margin: 7px 2px;
     width: 20px;
 
