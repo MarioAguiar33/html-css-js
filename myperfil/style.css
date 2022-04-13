@@ -116,7 +116,7 @@ main{
     margin-bottom: 2px;
 
 }
-#showskills h5::before{
+#showskills h5::after{
     content: '✅';
 }
 #projetos div{
