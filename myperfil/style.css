@@ -132,8 +132,18 @@ main{
 }
 
 @media(max-width:450px){
-    
-    #projetos,#showskills{
+
+    #projetos div{
+        width: 175px;
+    }    
+}
+@media(max-width:410px){
+    #showskills{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:340px){
+    #projetos{
         grid-template-columns: 1fr;
     }
 }
