@@ -102,7 +102,22 @@ main{
     
 }
 #showskills{
-    display: none;
+    display: none;    
+}
+#showskills h4{
+    background-color: var(--cor2);
+    padding: 5px 10px;
+    color: black !important;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#showskills h5{
+    margin-top: 10px;
+    margin-bottom: 2px;
+
+}
+#showskills h5::before{
+    content: '✅';
 }
 #projetos div{
     color: white;
@@ -117,7 +132,8 @@ main{
 }
 
 @media(max-width:450px){
-    #projetos div{
-        width: 175px;
+    
+    #projetos,#showskills{
+        grid-template-columns: 1fr;
     }
 }
