@@ -82,6 +82,7 @@ main{
     border-radius: 5px;
     height: 45px;
     width: calc(280px/2);
+    cursor: pointer;
 }
 #habilidades span:nth-child(2n){
     background-color: var(--cor2);

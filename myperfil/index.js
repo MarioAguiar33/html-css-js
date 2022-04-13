@@ -1,4 +1,7 @@
 const body=document.body;
+const projects=document.querySelector('#projects');
+const skills=document.querySelector('#skills');
+const projetos=document.querySelector('#projetos');
 var imgdarkmode=document.querySelector('#darkmode');
 var dark = false;
 
@@ -13,6 +16,21 @@ function darkMode(){
     }
     dark = !dark; 
    
+}
+
+function exibir(id){
+    if(id==skills){
+        projetos.style.display='none';
+        id.style.backgroundColor='white';
+        projects.style.backgroundColor='var(--cor2)';
+
+    }else{
+        projetos.style.display='grid';
+        id.style.backgroundColor='white';
+        skills.style.backgroundColor='var(--cor2)';
+
+    }
+
 }
 
 
