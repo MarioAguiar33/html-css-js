@@ -91,7 +91,7 @@ main{
 #habilidades span:nth-child(2n):hover{
     background-color:white;
 }
-#projetos{
+#projetos,#showskills{
     max-width: 600px;
     display: grid;
     justify-content: space-evenly;
@@ -100,6 +100,9 @@ main{
     grid-template-columns:repeat(2,minmax(150px,250px)) ;
     margin-top: 50px;
     
+}
+#showskills{
+    display: none;
 }
 #projetos div{
     color: white;
