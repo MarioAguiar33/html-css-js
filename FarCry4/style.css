@@ -11,12 +11,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+    min-height: 100%;
+}
 
 body{
     background-image: url('fundo2.jpg');
     background-size: cover;
     background-attachment: fixed;
-    font-family: var(--fontP)
+    font-family: var(--fontP);
+    min-height: 100vh;
 }
 header{
     display: flex;
@@ -103,7 +108,8 @@ footer{
     background-color: black;
     color: white;
     padding: 5px;
-}
+    margin-top: auto;
+}    
 footer>a>img{
     width: 20px;
     margin: 0px 3px;
