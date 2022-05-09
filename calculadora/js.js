@@ -19,5 +19,6 @@ function calcular(){
     else{
         alert("Nada para calcular");
     }
+    console.log(eval(numero))
 
 }
