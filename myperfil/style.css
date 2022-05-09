@@ -129,6 +129,22 @@ main{
     background-image: url(capa3.jpg);   
     background-position: center; 
     background-size: cover;
+    position: relative;
+}
+#projetos div a{
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   text-decoration: none;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.678);
+   padding: 5px;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 0;
+   height: 100%;
+   font-weight: bold;
+   width: 100%;
 }
 
 @media(max-width:450px){
