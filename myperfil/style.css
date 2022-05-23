@@ -131,6 +131,14 @@ main{
     background-size: cover;
     position: relative;
 }
+#projetos #calc1{
+    background-image: url(bgcalc1.png);   
+
+}
+#projetos #calc2{
+    background-image: url(bgcalc2.png);   
+
+}
 #projetos div a{
    display: flex;
    align-items:center;
