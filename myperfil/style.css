@@ -20,11 +20,16 @@ header{
 body{
     font-family: sans-serif;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+        
 }
 
 main{
     max-width: 600px;    
-    margin: 0 auto;    
+    margin: 0 auto;   
+    
+    
 }
 #foto{
     display: flex;
@@ -99,10 +104,13 @@ main{
     gap:15px;
     grid-template-columns:repeat(2,minmax(150px,250px)) ;
     margin-top: 50px;
+    position: relative;
     
 }
 #showskills{
-    display: none;    
+    display: none;
+    margin-bottom: 0px;  
+      
 }
 #showskills h4{
     background-color: var(--cor2);
@@ -112,8 +120,8 @@ main{
     margin-bottom: 15px;
 }
 #showskills h5{
-    margin-top: 10px;
-    margin-bottom: 2px;
+    margin-top: 8px;
+    
 
 }
 #showskills h5::after{
@@ -157,19 +165,25 @@ main{
 #projetos div:hover{
     border:2px solid #0088ff;
 }
-@media(max-width:450px){
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;    
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+@media(max-width:500px){
 
     #projetos div{
-        width: 175px;
+        width: 175px;        
     }    
+    
 }
-@media(max-width:410px){
-    #showskills{
-        grid-template-columns: 1fr;
-    }
-}
-@media(max-width:340px){
-    #projetos{
-        grid-template-columns: 1fr;
-    }
+@media(max-width:413px){
+    
+    #projetos div{
+        margin: 10px 0px;    
+    }  
 }
