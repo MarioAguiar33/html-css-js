@@ -72,14 +72,14 @@ main{
     background-color: #0088ff;
 }
 #habilidades{
-    border-radius: 5px;
-    
+    border-radius: 5px;    
     background-color: var(--cor2);
     height: 55px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
+    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.479);
 }
 #habilidades span{
     color:black !important;
@@ -157,10 +157,10 @@ main{
    color: white;
    background-color: rgba(0, 0, 0, 0.521);
    padding: 5px;
-   border-radius: 5px;   
-   height: 100%;
+   border-radius: 5px;      
    font-weight: bold;
-   width: 100%;
+   width: 225px;
+   height: 150px;
 }
 #projetos div:hover{
     border:2px solid #0088ff;
@@ -171,13 +171,16 @@ footer{
     text-align: center;
     padding: 5px;    
     width: 100vw;    
-    margin-top: 50px;
+    margin-top: 108px;
 }
 @media(max-width:500px){
 
-    #projetos div{
+    #projetos div,#projetos div a{
         width: 175px;        
     }    
+    footer{
+        margin-top: 90px;
+    }
     
 }
 @media(max-width:413px){
