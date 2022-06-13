@@ -22,12 +22,14 @@ body{
     transition: 1s;
     display: flex;
     flex-direction: column;
+    align-content: space-between;
         
 }
 
 main{
     max-width: 600px;    
     margin: 0 auto;   
+    
     
     
 }
@@ -104,7 +106,7 @@ main{
     gap:15px;
     grid-template-columns:repeat(2,minmax(150px,250px)) ;
     margin-top: 50px;
-    position: relative;
+   
     
 }
 #showskills{
@@ -120,7 +122,7 @@ main{
     margin-bottom: 15px;
 }
 #showskills h5{
-    margin-top: 8px;
+    margin-top: 10px;
     
 
 }
@@ -137,7 +139,7 @@ main{
     background-image: url(capa3.jpg);   
     background-position: center; 
     background-size: cover;
-    position: relative;
+   
 }
 #projetos #calc1{
     background-image: url(bgcalc1.png);   
@@ -155,9 +157,7 @@ main{
    color: white;
    background-color: rgba(0, 0, 0, 0.521);
    padding: 5px;
-   border-radius: 5px;
-   position: absolute;
-   bottom: 0;
+   border-radius: 5px;   
    height: 100%;
    font-weight: bold;
    width: 100%;
@@ -170,9 +170,8 @@ footer{
     color: white;
     text-align: center;
     padding: 5px;    
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
+    width: 100vw;    
+    margin-top: 50px;
 }
 @media(max-width:500px){
 
