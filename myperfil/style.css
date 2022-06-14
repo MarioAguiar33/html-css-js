@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,12 +16,11 @@
 }
 header{
     display: flex;
-    justify-content: end;
-    
+    justify-content: end;    
     padding: 10px;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     transition: 1s;
     display: flex;
     flex-direction: column;
@@ -29,9 +31,6 @@ body{
 main{
     max-width: 600px;    
     margin: 0 auto;   
-    
-    
-    
 }
 #foto{
     display: flex;
@@ -139,6 +138,7 @@ main{
     background-image: url(capa3.jpg);   
     background-position: center; 
     background-size: cover;
+    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.479);
    
 }
 #projetos #calc1{
@@ -171,7 +171,7 @@ footer{
     text-align: center;
     padding: 5px;    
     width: 100vw;    
-    margin-top: 108px;
+    margin-top: 123px;
 }
 @media(max-width:500px){
 
