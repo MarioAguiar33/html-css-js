@@ -14,6 +14,12 @@
     background-color: #060a0f;
     color: white;
 }
+.basic{
+    color: #0088ff;
+}
+.intermediate{
+    color: orangered;
+}
 header{
     display: flex;
     justify-content: end;    
@@ -110,8 +116,6 @@ main{
 }
 #showskills{
     display: none;
-    margin-bottom: 0px;  
-      
 }
 #showskills h4{
     background-color: var(--cor2);
@@ -122,6 +126,7 @@ main{
 }
 #showskills h5{
     margin-top: 10px;
+    
     
 
 }
@@ -171,7 +176,7 @@ footer{
     text-align: center;
     padding: 5px;    
     width: 100vw;    
-    margin-top: 123px;
+    margin-top: 123.5px;
 }
 @media(max-width:500px){
 
