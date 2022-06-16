@@ -154,6 +154,10 @@ main{
     background-image: url(bgcalc2.png);   
 
 }
+#projetos #projetoCordel{
+    background-image: url(bgProjetoCordel.jpg);   
+
+}
 #projetos div a{
    display: flex;
    align-items:center;
