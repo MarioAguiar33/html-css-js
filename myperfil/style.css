@@ -26,8 +26,7 @@ header{
     padding: 10px;
 }
 body{
-    font-family: 'Roboto', sans-serif;
-    transition: 1s;
+    font-family: 'Roboto', sans-serif;    
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -55,11 +54,25 @@ main{
 #names,#redes,#btn,#habilidades{
     width: 300px;
     text-align: center;
-    margin: 10px auto;
+    margin: 9px auto;
+    transition: 1s;
 }
-#redes>a>img{
-    margin: 7px 2px;
-    width: 20px;
+#redes{
+    
+    margin-top: 5px;
+}
+#redes a{      
+    display:inline-flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 10px;
+    padding: 3px 15px;
+    
+    
+    
+}
+#redes>a>img{   
+    width: 20px;    
     filter: brightness(80%);
 }
 #redes>a>img:hover{
@@ -174,6 +187,7 @@ main{
 #projetos div:hover{
     border:2px solid #0088ff;
 }
+
 footer{
     background-color: black;
     color: white;
