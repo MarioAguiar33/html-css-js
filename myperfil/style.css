@@ -142,10 +142,7 @@ main{
     margin-bottom: 15px;
 }
 #showskills h5{
-    margin-top: 10px;
-    
-    
-
+    margin-top: 10px; 
 }
 #showskills h5::after{
     content: '✅';
