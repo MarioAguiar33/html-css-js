@@ -127,8 +127,12 @@ main{
    
     
 }
+#projetos{
+    animation: showright .5s forwards;
+}
 #showskills{
     display: none;
+    animation: showleft .5s forwards;
 }
 #showskills h4{
     background-color: var(--cor2);
@@ -211,4 +215,26 @@ footer{
     #projetos div{
         margin: 10px 0px;    
     }  
+}
+
+@keyframes showleft{
+    from{
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes showright{
+    from{
+        opacity: 0;
+        transform: translate3d(30px, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
