@@ -1,30 +1,49 @@
 const body=document.body;
+
+//DarkMode=====================================================
+
+let imgToggleDarkMode=document.querySelector('.buttonToggleDarkMode'); 
+
+function darkMode(){
+       
+    
+
+    body.classList.toggle('darkMode');
+
+    let isDarkMode=body.classList.contains('darkMode')
+    if(isDarkMode){
+        imgToggleDarkMode.src='light_mode.svg';
+    }else{
+       
+        imgToggleDarkMode.src='dark_mode.svg';
+    }
+
+    
+    /*
+    let dark = false;
+    if (dark === true) {
+        imgToggleDarkMode.src = 'dark_mode.svg';
+    } else if(dark===false){
+        imgToggleDarkMode.src = 'light_mode.svg';
+      
+    }
+    console.log(imgToggleDarkMode)
+    dark = !dark; 
+   */
+}
+imgToggleDarkMode.addEventListener('click', darkMode);
+
+
+
+
+
+//============================================================
+
+
 const projects=document.querySelector('#projects');
 const skills=document.querySelector('#skills');
 const projetos=document.querySelector('#projetos');
 const divskills=document.querySelector('#showskills');
-
-//DarkMode=====================================================
-
-
-imgToggleDarkMode.addEventListener('click', darkMode)
-
-function darkMode(){
-    const imgToggleDarkMode=document.querySelector('#imgToggleDarkMode');    
-    let dark = false;
-
-    body.classList.toggle('darkMode');
-    if (dark === true) {
-        imgToggleDarkMode.src  = 'dark_mode_black_24dp.svg';
-    } else {
-        imgToggleDarkMode.src = 'light_mode_white_24dp.svg';
-      
-    }
-    dark = !dark; 
-   
-}
-
-//============================================================
 
 function exibir(id){
     if(id==skills){

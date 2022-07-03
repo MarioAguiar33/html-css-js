@@ -25,13 +25,18 @@ header{
     justify-content: end;    
     padding: 10px;
     
+    
 }
 body{
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;  
+    transition: 0.5s;
+}
+.container{
+      
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    transition: 0.3s;
+    
         
 }
 
