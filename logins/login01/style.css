@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --corPrincipal:#3B398F;
+    --hoverCorPrincipal:#6F6DC5;
+}
+body{
+    display: flex;
+    background-color: #212529;
+    font-family: sans-serif;
+}
+aside{
+    width: 50%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #000000b3;
+    color: #FFF;
+}
+main{
+    width: 50%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}    
+main h1{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;   
+    display: none;    
+}    
+
+
+form{
+    color: #FFF;
+    max-width: 900px;
+    min-width: 400px;
+    padding: 20px;
+    
+}
+form>h2{
+    margin: 40px 0;
+}
+form>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+div>a{
+    text-decoration: none;
+    color: var(--corPrincipal);
+    font-weight: bold;
+}
+div>a:hover{
+    text-decoration: underline;
+    color: var(--hoverCorPrincipal); 
+    
+}
+
+form>input{
+    display: block;
+    margin: 15px 0;
+    line-height: 40px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1.5px solid #48515a;
+    background-color: #212529;
+}
+form>input:focus{
+    border: 2px solid var(--hoverCorPrincipal);
+}
+
+form>a{
+    display: block;
+    text-align: center;
+    text-decoration: none;    
+    color: var(--corPrincipal);
+    font-weight: bold;
+    margin: 20px 0;
+}
+form>a:hover{
+    text-decoration: underline;       
+}
+#buttonEntrar{    
+    background-color: var(--corPrincipal);
+    color:#212529;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.644);
+}
+#buttonEntrar:hover{
+    background-color: var(--hoverCorPrincipal);
+    
+}
+#buttonCriarConta{
+    border: 3px solid var(--corPrincipal);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#buttonCriarConta:hover{
+    color: var(--hoverCorPrincipal);
+    border-color: var(--hoverCorPrincipal);
+}
+#entrarOutros{
+    display: block;
+    margin-top: 50px;
+}
+#entrarOutros>a{
+    
+    display: block;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+#entrarFace{
+    background-color: #1877F2;
+    filter: brightness(.9);
+}
+#entrarFace:hover{
+    filter: brightness(1);
+}
+#entrarGmail:hover{    
+    filter: brightness(1);
+}
+#entrarGmail{
+    background-color:rgba(255, 255, 255, 0.699);
+    filter: brightness(0.9);
+}
+form a:last-child:hover{
+    color: var(--hoverCorPrincipal);
+}
+
+@media(max-width:900px){
+    aside{
+        display: none;
+    }
+    form{
+        min-width: 250px;
+    }
+    main{
+        width: 100%;        
+    }
+    main h1{
+        display: flex;
+        
+    }
+}
