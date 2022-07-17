@@ -25,13 +25,14 @@ main{
     display: grid;
     place-content: center;
 }    
-main h1{
-    color: #FFF;
+#logo{    
+    
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;   
+    margin: 0 auto;   
+    max-width: 150px;   
     display: none;    
-}    
+}  
+
 
 
 form{
@@ -42,7 +43,7 @@ form{
     
 }
 form>h2{
-    margin: 40px 0;
+    margin-bottom: 40px
 }
 form>div{
     display: flex;
@@ -72,7 +73,7 @@ form>input{
     background-color: #212529;
 }
 form>input:focus{
-    border: 2px solid var(--hoverCorPrincipal);
+    border:2px solid var(--hoverCorPrincipal);
 }
 
 form>a{
@@ -151,7 +152,7 @@ form a:last-child:hover{
     main{
         width: 100%;        
     }
-    main h1{
+    #logo{
         display: flex;
         
     }
